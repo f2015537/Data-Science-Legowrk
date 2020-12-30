@@ -1,0 +1,9 @@
+1) Open Anaconda Prompt (miniconda 3).
+2) Default location will be root folder.
+3) Navigate to the folder of your machine learning project from the Anaconda prompt using cd,dir (equivalent of ls on linux).
+4) conda create --prefix ./env pandas numpy matplotlib jupyter scikit-learn
+5) conda activate <Folder Path>\env
+6) conda install <package name> to install new packages to the current active environment.
+
+
+-- type cls to clear screen in Anaconda Prompt.
