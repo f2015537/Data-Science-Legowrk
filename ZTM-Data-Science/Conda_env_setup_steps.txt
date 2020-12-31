@@ -4,6 +4,9 @@
 4) conda create --prefix ./env pandas numpy matplotlib jupyter scikit-learn
 5) conda activate <Folder Path>\env
 6) conda install <package name> to install new packages to the current active environment.
-
+7) Add 'env/' to .gitignore.
+8) To make an environment.yml file, conda env export > environment.yml. (Note that this can be done only when the environment you want to export is activated).
+9) To create an environment called env_from_file from a .yml file called environment.yml, use: conda env create --file environment.yml --name env_from_file
 
 -- type cls to clear screen in Anaconda Prompt.
+-- conda env list.
