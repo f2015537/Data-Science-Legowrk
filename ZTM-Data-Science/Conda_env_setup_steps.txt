@@ -9,4 +9,8 @@
 9) To create an environment called env_from_file from a .yml file called environment.yml, use: conda env create --file environment.yml --name env_from_file
 
 -- type cls to clear screen in Anaconda Prompt.
--- conda env list.
+-- conda env list. (To see list of all conda environments in the system)
+-- conda list (shows installed libraries and their versions in the activated environment).
+-- conda update 'package-name' (to update specific package to its latest version in the activated environment (please note that this package may not be the latest overall but it will be the latest of packages available in the anaconda ecosystem)).
+-- conda list 'package-name' (to check version of specific package in the active environment).
+-- conda search 'package-name' (To see if a specific package is available for installation).
